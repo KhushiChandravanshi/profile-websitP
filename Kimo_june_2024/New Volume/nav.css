@@ -1,0 +1,43 @@
+*
+{
+margin:0;
+padding:0;
+}
+#icecream ul
+{
+list-style:none;
+}
+#icecream ul li
+{
+background-color:black;
+border:1px solid white;
+width:240px;
+height:40px;
+text-align:center;
+line-height:40px;
+float:left;
+position:relative;
+}
+#icecream ul li a
+{
+text-decoration:none;
+color:white;
+display:block;
+}
+#icecream ul li a:hover
+{
+ background-color:green;
+}
+#icecream ul ul
+{
+ position:absolute;
+ display: none;
+}
+#icecream ul li:hover>ul
+{
+ display:block;
+}
+
+
+
+
